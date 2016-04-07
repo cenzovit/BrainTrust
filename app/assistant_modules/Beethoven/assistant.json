@@ -1,0 +1,15 @@
+{
+  "name": "Beethoven",
+  "version": "0.1.0",
+  "description": "Voice assistant for music.",
+  "author": "Vincenzo Vitiello",
+  "main": "./src/scripts/main.js",
+  "keywords": [
+    "voice",
+    "assistants",
+    "helper",
+    "utility",
+    "playback control",
+    "music discovery"
+  ],
+}

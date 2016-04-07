@@ -1,0 +1,26 @@
+{
+  "name": "BrainTrust",
+  "version": "0.1.0",
+  "description": "A collection of the brightest voice assistants",
+  "main": "./src/scripts/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "BrainTrust",
+    "voice",
+    "assistants",
+    "helper",
+    "utility"
+  ],
+  "author": "Vincenzo Vitiello",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "nslog": "^3",
+    "yargs": "^3.23.0",
+    "annyang": "^1.0.0",
+    "jquery": "^2.2.1"
+  }
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+#network-indicator {
+  bottom: 24px;
+  left: 24px;
+  position: fixed;
+  z-index: 300;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-flex;
+  display: flex;
+
+  .message {
+    background-color: #404040;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    margin-top: 8px;
+    padding: 16px;
+    white-space: nowrap;
+    z-index: 45;
+    float: right;
+  }
+}
+
+body.offline #skitt-ui,
+body:not(.offline) #network-indicator .message {
+  display: none !important;
+}
